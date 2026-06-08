@@ -1,0 +1,131 @@
+[
+  {
+    "category": "Pizza",
+    "items": [
+      { "name": "Cheese Pizza", "price": "99/149" },
+      { "name": "Veg cheese Pizza", "price": "99/149" },
+      { "name": "Peri Peri veg cheese Pizza", "price": "129/169" },
+      { "name": "Paneer cheese Pizza", "price": "149/179" },
+      { "name": "Paneer tiika Pizza", "price": "149/199" },
+      { "name": "Sweet corn cheese Pizza", "price": "149/179" },
+      { "name": "Baby corn cheese Pizza", "price": "149/179" },
+      { "name": "Mashroom cheese Pizza", "price": "149/199" },
+      { "name": "Double cheese Pizza", "price": "179/229" },
+      { "name": "Double cheese Paneer Pizza", "price": "179/229" },
+      { "name": "Double cheese baby corn Pizza", "price": "179/229" },
+      { "name": "Double cheese Mashroom Pizza", "price": "179/229" },
+      { "name": "Cheese burst Pizza", "price": "249/349" },
+      { "name": "Special all toping cheese Pizza", "price": "249/349" },
+      { "name": "Special Cheese burst all toping Pizza", "price": "299/399" }
+    ]
+  },
+  {
+    "category": "Burgers",
+    "items": [
+      { "name": "Veg burger", "price": "59" },
+      { "name": "Schezwan burger", "price": "59" },
+      { "name": "Paneer burger", "price": "79" },
+      { "name": "cheese burger", "price": "79" },
+      { "name": "sweet corn burger", "price": "79" },
+      { "name": "Paneer Cheese burger", "price": "99" },
+      { "name": "Sweet corn cheese burger", "price": "99" },
+      { "name": "Double cheese burger", "price": "119" },
+      { "name": "Double cheese paneer burger", "price": "149" },
+      { "name": "Double cheese sweet corn burger", "price": "149" },
+      { "name": "Special burger", "price": "149" }
+    ]
+  },
+  {
+    "category": "Sandwich",
+    "items": [
+      { "name": "Veg grill Sandwich", "price": "59" },
+      { "name": "Paneer grill Sandwich", "price": "89" },
+      { "name": "Sweet corn Sandwich", "price": "89" },
+      { "name": "Cheese grill Sandwich", "price": "89" },
+      { "name": "Chocolate Sandwich", "price": "99" },
+      { "name": "Double cheese Veg Sandwich", "price": "119" },
+      { "name": "Double cheese sweet corn Sandwich", "price": "129" },
+      { "name": "Double cheese Paneer sandwich", "price": "129" },
+      { "name": "Special Sandwich", "price": "149" }
+    ]
+  },
+  {
+    "category": "Chinese Food",
+    "items": [
+      { "name": "Fried Rice", "price": "100" },
+      { "name": "Schezwan Rice", "price": "100" },
+      { "name": "Manchurian Rice", "price": "130" },
+      { "name": "Paneer Rice", "price": "150" },
+      { "name": "Noodles", "price": "100" },
+      { "name": "Hakka noodles", "price": "110" },
+      { "name": "Schezwan noodles", "price": "130" },
+      { "name": "Manchurian Noodles", "price": "150" },
+      { "name": "Paneer Noodles", "price": "150" },
+      { "name": "Manchurian", "price": "100" },
+      { "name": "Manchurian gravy", "price": "100" },
+      { "name": "Pasta", "price": "150" },
+      { "name": "white sauce pasta", "price": "150" },
+      { "name": "Gobi 65", "price": "130" },
+      { "name": "Chilli Potato", "price": "180" },
+      { "name": "Paneer 65", "price": "180" },
+      { "name": "Paneer chilli", "price": "180" }
+    ]
+  },
+  {
+    "category": "Momos",
+    "items": [
+      { "name": "Veg Steam Momos", "price": "69" },
+      { "name": "Veg Fried Momos", "price": "69" },
+      { "name": "Veg Steam Peri Peri Momos", "price": "79" },
+      { "name": "Veg Fried peri peri momos", "price": "79" },
+      { "name": "Veg Cheese Steam Momos", "price": "129" },
+      { "name": "Veg Cheese Fried Momos", "price": "129" },
+      { "name": "Veg Cheese Peri Peri Steam Momos", "price": "149" },
+      { "name": "Veg Cheese Peri Peri Fried Momos", "price": "149" }
+    ]
+  },
+  {
+    "category": "Fries",
+    "items": [
+      { "name": "Salted french fries", "price": "59" },
+      { "name": "Peri Peri french fries", "price": "69" },
+      { "name": "Potato Twister", "price": "69" }
+    ]
+  },
+  {
+    "category": "Missal",
+    "items": [
+      { "name": "Misal", "price": "69" },
+      { "name": "Misal (Unlimited)", "price": "99" }
+    ]
+  },
+  {
+    "category": "Pav Bhaji",
+    "items": [
+      { "name": "Paav Bhaaji", "price": "49" },
+      { "name": "Butter Paav Bhaaji", "price": "69" },
+      { "name": "Cheese Butter Paav Bhaaji", "price": "99" },
+      { "name": "Paneer Butter Paav Bhaaji", "price": "99" },
+      { "name": "Extra Paav", "price": "10" },
+      { "name": "Extra Butter Paav", "price": "20" }
+    ]
+  },
+  {
+    "category": "Vadapav",
+    "items": [
+      { "name": "Regular Vadapaav", "price": "15" },
+      { "name": "Grill Vadapaav", "price": "20" },
+      { "name": "Mayonnaise Vadapaav", "price": "30" },
+      { "name": "Cheese grill Vadapaav", "price": "40" },
+      { "name": "Paties", "price": "25" }
+    ]
+  },
+  {
+    "category": "Beverage",
+    "items": [
+      { "name": "cold coffee", "price": "70" },
+      { "name": "mango crush", "price": "70" },
+      { "name": "mojito", "price": "50" }
+    ]
+  }
+]
