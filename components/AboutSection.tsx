@@ -90,10 +90,10 @@ export default function AboutSection() {
           </div>
 
           {/* Stats row */}
-          <div className="grid grid-cols-3 gap-4 pt-2">
+          <div className="grid grid-cols-3 gap-3 pt-2">
             {[
               { value: '10+', label: 'Menu Items' },
-              { value: '500+', label: 'Happy Customers' },
+              { value: '500+', label: 'Happy\nCustomers' },
               { value: '⭐ 5', label: 'Star Rating' },
             ].map((stat) => (
               <div key={stat.label}
@@ -101,13 +101,13 @@ export default function AboutSection() {
                   background: 'rgba(255,215,0,0.05)',
                   border: '1px solid rgba(255,215,0,0.15)',
                   borderRadius: 16,
-                  padding: '16px 12px',
+                  padding: '14px 8px',
                   textAlign: 'center',
                   boxShadow: '0 4px 16px rgba(0,0,0,0.15), inset 0 1px 0 rgba(255,255,255,0.04)',
                 }}
               >
-                <div className="text-gradient-gold font-display font-black text-2xl">{stat.value}</div>
-                <div className="text-on-surface-variant text-xs uppercase tracking-widest mt-1">{stat.label}</div>
+                <div className="text-gradient-gold font-display font-black text-xl sm:text-2xl leading-tight">{stat.value}</div>
+                <div className="text-on-surface-variant text-[9px] sm:text-xs uppercase tracking-widest mt-1 whitespace-pre-line leading-tight">{stat.label}</div>
               </div>
             ))}
           </div>

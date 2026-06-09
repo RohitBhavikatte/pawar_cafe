@@ -32,7 +32,7 @@ export default function MenuCategoryCarousel({ category }: { category: any }) {
       </div>
       
       {/* Horizontal Carousel */}
-      <div className="flex overflow-x-auto gap-6 pb-8 snap-x snap-mandatory scrollbar-hide py-2 px-2 -mx-2">
+      <div className="flex overflow-x-auto gap-6 pb-8 snap-x snap-mandatory scrollbar-hide py-2 px-2 -mx-2" style={{ touchAction: 'pan-x', WebkitOverflowScrolling: 'touch' } as React.CSSProperties}>
         {displayItems.map((item: any, idx: number) => (
           <DishCard 
             key={`${item._id}-${idx}`} 

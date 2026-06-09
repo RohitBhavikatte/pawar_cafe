@@ -189,14 +189,13 @@ export default function Navbar() {
           </div>
         </div>
 
-        {/* Mobile Menu — slide down panel */}
         <div
           ref={mobileMenuRef}
           className={`md:hidden overflow-hidden transition-all duration-400 ease-in-out ${
             isOpen ? 'max-h-[400px] opacity-100' : 'max-h-0 opacity-0'
           }`}
         >
-          <div className="bg-[#0c0f0f]/95 backdrop-blur-2xl border-t border-outline-variant/20 px-6 py-6 flex flex-col gap-1">
+          <div className="bg-surface/95 backdrop-blur-2xl border-t border-outline-variant/20 px-6 py-6 flex flex-col gap-1 shadow-2xl">
             {navLinks.map((link) => (
               <Link
                 key={link.href}
@@ -205,7 +204,7 @@ export default function Navbar() {
                 className={`py-3 px-4 rounded-xl text-sm font-medium tracking-wide transition-all duration-200 ${
                   activeSection === link.href
                     ? 'text-primary-container bg-primary-container/10 border border-primary-container/20'
-                    : 'text-on-surface-variant hover:text-on-surface hover:bg-surface-container'
+                    : 'text-on-surface hover:text-primary-container hover:bg-surface-container'
                 }`}
               >
                 {link.label}

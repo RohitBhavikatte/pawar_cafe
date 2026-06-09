@@ -107,11 +107,28 @@ export function DishCard({
 }
 
 function MenuMarquee({ items, categoryImage, reverse }: { items: { name: string; price: string }[]; categoryImage?: string; reverse?: boolean }) {
+  const trackRef = useRef<HTMLDivElement>(null);
+
+  const stopAnim = () => {
+    if (trackRef.current) trackRef.current.style.animationPlayState = 'paused';
+  };
+  const startAnim = () => {
+    if (trackRef.current) trackRef.current.style.animationPlayState = 'running';
+  };
+
   return (
-    <div className="relative overflow-hidden rounded-2xl border border-outline-variant/15 bg-surface-container-lowest/30 py-8 px-0 group/marquee">
-      <div className="overflow-x-auto no-scrollbar touch-pan-x hide-scroll-bar cursor-grab active:cursor-grabbing">
+    <div className="relative overflow-hidden rounded-2xl border border-outline-variant/15 bg-surface-container-lowest/30 py-8 px-0">
+      <div
+        className="overflow-x-auto no-scrollbar hide-scroll-bar cursor-grab active:cursor-grabbing"
+        style={{ touchAction: 'pan-x', WebkitOverflowScrolling: 'touch' } as React.CSSProperties}
+        onTouchStart={stopAnim}
+        onTouchEnd={startAnim}
+        onMouseEnter={stopAnim}
+        onMouseLeave={startAnim}
+      >
         <div
-          className={`flex items-stretch gap-6 w-max group-hover/marquee:[animation-play-state:paused] active:[animation-play-state:paused] focus:[animation-play-state:paused] ${reverse ? 'animate-marquee-slow-reverse max-md:animate-[marquee_50s_linear_infinite_reverse]' : 'animate-marquee-slow max-md:animate-[marquee_50s_linear_infinite]'}`}
+          ref={trackRef}
+          className={`flex items-stretch gap-6 w-max ${reverse ? 'animate-marquee-slow-reverse' : 'animate-marquee-slow'}`}
           style={{ animationDirection: reverse ? 'reverse' : 'normal' }}
         >
           {/* Duplicate for seamless loop */}
@@ -128,7 +145,7 @@ function MenuMarquee({ items, categoryImage, reverse }: { items: { name: string;
 
 function StaticGrid({ items, categoryImage }: { items: { name: string; price: string }[]; categoryImage?: string }) {
   return (
-    <div className="flex overflow-x-auto items-stretch gap-6 pb-6 no-scrollbar snap-x snap-mandatory hide-scroll-bar">
+    <div className="flex overflow-x-auto items-stretch gap-6 pb-6 no-scrollbar snap-x snap-mandatory hide-scroll-bar" style={{ touchAction: 'pan-x', WebkitOverflowScrolling: 'touch' } as React.CSSProperties}>
       {items.map((item: any, idx) => (
         <div key={idx} className="snap-start shrink-0 h-auto">
           <DishCard name={item.name} price={item.price} isFirst={idx === 0} image={categoryImage} ingredients={item.ingredients} hook={item.hook} />
@@ -196,7 +213,7 @@ export default function MenuGrid() {
         <span className="inline-block text-primary-container font-bold uppercase tracking-[0.3em] text-xs border border-primary-container/30 bg-primary-container/10 px-4 py-2 rounded-full mb-4">
           Our Menu
         </span>
-        <h2 className="font-display text-4xl sm:text-5xl md:text-7xl font-black uppercase text-on-surface tracking-tight">
+        <h2 className="font-display text-[2.2rem] sm:text-5xl md:text-7xl font-black uppercase text-on-surface tracking-tight whitespace-nowrap">
           What We <span className="text-gradient-gold">Serve</span>
         </h2>
       </div>
