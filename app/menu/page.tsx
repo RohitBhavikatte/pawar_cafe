@@ -3,12 +3,26 @@ import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import LenisScroll from "@/components/LenisScroll";
-import { DishCard } from "@/components/MenuGrid";
+import { DishCard, categoryImages } from "@/components/MenuGrid";
 import fullMenu from "@/data/fullMenu.json";
+import FocalCarousel from "@/components/FocalCarousel";
 
 export const metadata: Metadata = {
   title: "Full Menu | Pawar Cafe Udgir",
   description: "Explore the full menu of Pawar Cafe Udgir. Legendary Pizza, Misal, Burgers, Momos, Fries, and refreshing beverages.",
+};
+
+const localCategoryImages: Record<string, string> = {
+  "Pizza": "/images/cheese_pizza.png",
+  "Burgers": "/images/veg_burger.png",
+  "Sandwich": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?q=80&w=900&auto=format&fit=crop",
+  "Chinese Food": "/images/hakka_noodles.png",
+  "Momos": "/images/veg_steam_momos.png",
+  "Fries": "/images/french_fries.png",
+  "Missal": "/images/special_misal.png",
+  "Pav Bhaji": "https://images.unsplash.com/photo-1606491956689-2ea866880c84?q=80&w=900&auto=format&fit=crop",
+  "Vadapav": "/images/vada_pav.png",
+  "Beverage": "/images/cold_coffee.png",
 };
 
 export default function MenuPage() {
@@ -28,14 +42,16 @@ export default function MenuPage() {
           </Link>
         </div>
 
-        <div className="mb-20 text-center relative z-10">
-          <span className="inline-block text-primary-container font-bold uppercase tracking-[0.4em] text-[10px] px-4 py-2 rounded-full mb-6 border border-primary-container/30 bg-primary-container/10">
+        <div className="mb-24 text-center relative z-10">
+          <span className="inline-flex items-center gap-2 text-primary-container font-black uppercase tracking-[0.5em] text-[10px] px-6 py-3 rounded-full mb-8 border border-primary-container/20 bg-primary-container/5 shadow-[0_0_30px_rgba(255,215,0,0.15)]">
+            <span className="w-1.5 h-1.5 rounded-full bg-primary-container animate-pulse"></span>
             Taste the Legend
+            <span className="w-1.5 h-1.5 rounded-full bg-primary-container animate-pulse"></span>
           </span>
-          <h1 className="font-display text-5xl md:text-8xl font-black uppercase tracking-tighter mb-6 drop-shadow-lg">
+          <h1 className="font-display text-6xl md:text-9xl font-black uppercase tracking-tighter mb-8 drop-shadow-2xl">
             Our <span className="text-gradient-gold">Menu</span>
           </h1>
-          <p className="text-on-surface-variant max-w-xl mx-auto text-lg leading-relaxed">
+          <p className="text-on-surface-variant max-w-2xl mx-auto text-lg md:text-xl leading-relaxed border-l-4 border-primary-container/30 pl-6 py-2">
             From the fiery bite of our authentic Misal to the ultimate cheese stretch of our pizzas — discover the flavors that took over Udgir.
           </p>
         </div>
@@ -50,13 +66,19 @@ export default function MenuPage() {
                 <div className="flex-1 h-px bg-gradient-to-r from-primary-container/40 to-transparent" />
               </div>
               
-              <div className="flex overflow-x-auto md:flex-wrap gap-8 pb-6 no-scrollbar snap-x snap-mandatory hide-scroll-bar justify-start">
-                {category.items.map((item, idx) => (
-                  <div key={idx} className="snap-start shrink-0">
-                    <DishCard name={item.name} price={item.price} isFirst={idx === 0} />
-                  </div>
+              <FocalCarousel>
+                {category.items.map((item: any, idx: number) => (
+                  <DishCard 
+                    key={idx} 
+                    name={item.name} 
+                    price={item.price} 
+                    isFirst={idx === 0} 
+                    image={localCategoryImages[category.category]} 
+                    ingredients={item.ingredients}
+                    hook={item.hook}
+                  />
                 ))}
-              </div>
+              </FocalCarousel>
             </section>
           ))}
         </div>

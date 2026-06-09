@@ -55,6 +55,7 @@ export default function Hero() {
           loop
           muted
           playsInline
+          preload="auto"
         />
         {/* Luxury Vignette and Fade-to-Black */}
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,transparent_0%,rgba(0,0,0,0.4)_100%)] pointer-events-none" />
@@ -66,7 +67,7 @@ export default function Hero() {
       <div className="absolute bottom-1/4 left-1/4 w-80 h-80 bg-[#ff8c00]/10 rounded-full blur-[100px] pointer-events-none animate-pulse mix-blend-screen" style={{ animationDelay: '1s' }} />
 
       {/* Hero Content — Right Aligned */}
-      <div ref={contentRef} className="relative z-10 px-6 md:px-16 pb-10 md:pb-24 max-w-2xl ml-auto text-right flex flex-col justify-end h-full">
+      <div ref={contentRef} className="relative z-10 px-6 md:px-16 pb-8 md:pb-12 max-w-2xl ml-auto text-right flex flex-col justify-end h-full mt-auto">
         
         <div className="flex items-center justify-end gap-4 mb-2 hero-animate opacity-0 mt-auto md:mt-0">
           <div className="flex flex-col items-end">
@@ -77,22 +78,22 @@ export default function Hero() {
           </div>
           <div className="w-10 h-px bg-gradient-to-r from-transparent to-primary-container/60" />
           <div className="relative w-12 h-12 rounded-full overflow-hidden border-2 border-primary-container/80 shadow-[0_0_30px_rgba(255,215,0,0.4)]">
-            <Image src="/images/logo.png" alt="Pawar Cafe Logo" fill className="object-cover" unoptimized />
+            <Image src="/images/logo.png" alt="Pawar Cafe Logo" fill className="object-cover" priority />
           </div>
         </div>
 
-        <h1 className="hero-animate opacity-0 font-display text-3xl sm:text-5xl md:text-7xl lg:text-8xl font-black uppercase text-white leading-tight md:leading-[0.9] tracking-tighter mb-3 py-1">
-          <span className="inline-block drop-shadow-2xl mr-2">पवार</span>
-          <span className="text-gradient-gold inline-block drop-shadow-2xl">कॅफे</span>
+        <h1 className="hero-animate opacity-0 font-display text-4xl sm:text-5xl md:text-5xl lg:text-6xl font-black uppercase text-white leading-[1.15] tracking-tighter mb-2">
+          <span className="inline-block drop-shadow-2xl mr-1.5 pt-2">पवार</span>
+          <span className="text-gradient-gold inline-block drop-shadow-2xl pt-2 pb-1">कॅफे</span>
         </h1>
 
-        <p className="hero-animate opacity-0 text-white/80 font-sans text-sm md:text-base max-w-sm ml-auto mb-8 leading-relaxed border-r-2 border-primary-container/50 pr-4">
+        <p className="hero-animate opacity-0 text-white/80 font-sans text-sm md:text-base max-w-sm ml-auto mb-6 leading-snug border-r-2 border-primary-container/50 pr-4">
           Where Udgir's finest ingredients meet culinary passion. Prepare your senses for an unforgettable experience.
         </p>
 
         <div className="hero-animate opacity-0 flex flex-wrap sm:flex-nowrap gap-4 justify-end items-center">
           <a
-            href="#about"
+            href="/about"
             className="group flex items-center justify-center gap-2 text-white text-xs px-6 py-3 rounded-full hover:bg-white/5 transition-all duration-300 uppercase tracking-widest font-bold whitespace-nowrap"
           >
             <span>Our Story</span>

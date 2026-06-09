@@ -2,12 +2,16 @@ import os
 import shutil
 import glob
 
-source_dir = r"C:\Users\ROHIT\.gemini\antigravity-ide\brain\6d6f13ac-a758-4500-a335-c252bed85922"
+source_dir = r"C:\Users\ROHIT\.gemini\antigravity-ide\brain\c298eae6-081c-4929-bd89-8f0bd7190892"
 dest_dir = r"public\images"
+import os
+import shutil
 
-os.makedirs(dest_dir, exist_ok=True)
+source_file = os.path.join(source_dir, "french_fries_1780990766467.png")
+dest_file = os.path.join(dest_dir, "french-fries.jpg")
 
-png_files = glob.glob(os.path.join(source_dir, "*.png"))
-for file in png_files:
-    shutil.copy(file, dest_dir)
-    print(f"Copied {file}")
+if os.path.exists(source_file):
+    shutil.copy(source_file, dest_file)
+    print("Copied successfully")
+else:
+    print("Source file not found")

@@ -7,7 +7,7 @@ import { useState, useEffect, useRef } from 'react';
 const navLinks = [
   { label: 'Home', href: '/' },
   { label: 'Menu', href: '/menu' },
-  { label: 'Our Story', href: '/#about' },
+  { label: 'Our Story', href: '/about' },
   { label: 'Contact', href: '/#contact' },
 ];
 
@@ -88,7 +88,6 @@ export default function Navbar() {
                 alt="Pawar Cafe Logo"
                 fill
                 className="object-cover"
-                unoptimized
               />
             </div>
             <div className="flex flex-col pt-2 pb-1">

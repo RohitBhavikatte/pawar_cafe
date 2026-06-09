@@ -1,11 +1,14 @@
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
-import MenuGrid from "@/components/MenuGrid";
-import AboutSection from "@/components/AboutSection";
-import ReviewsSection from "@/components/ReviewsSection";
-import Footer from "@/components/Footer";
+import dynamic from 'next/dynamic';
+
 import CookieConsent from "@/components/CookieConsent";
 import LenisScroll from "@/components/LenisScroll";
+
+const MenuGrid = dynamic(() => import("@/components/MenuGrid"), { ssr: true });
+const AboutSection = dynamic(() => import("@/components/AboutSection"), { ssr: true });
+const ReviewsSection = dynamic(() => import("@/components/ReviewsSection"), { ssr: true });
+const Footer = dynamic(() => import("@/components/Footer"), { ssr: true });
 
 export default function Home() {
   return (

@@ -13,13 +13,12 @@ export default function LenisScroll({ children }: { children: React.ReactNode })
         const LenisClass = LenisModule.default;
         
         lenis = new LenisClass({
-          duration: 1.5,
-          easing: (t: number) => Math.min(1, 1.001 - Math.pow(2, -10 * t)), // Luxurious exponential easing
+          duration: 1.2,
+          easing: (t: number) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
           orientation: 'vertical',
           gestureOrientation: 'vertical',
           smoothWheel: true,
-          wheelMultiplier: 0.8, // Slightly heavier, more premium feel
-          touchMultiplier: 2,
+          syncTouch: true,
         });
 
         const raf = (time: number) => {

@@ -1,16 +1,16 @@
 import Image from 'next/image';
 
 const categoryImages: Record<string, string> = {
-  pizza: '/images/pizza.png',
-  burgers: '/images/burger.png',
+  pizza: '/images/cheese_pizza.png',
+  burgers: '/images/veg_burger.png',
   sandwich: '/images/sandwich.png',
-  chinese: '/images/chinese.png',
-  momos: '/images/momos.png',
-  fries: '/images/fries.png',
-  missal: '/images/misal.png',
+  chinese: '/images/hakka_noodles.png',
+  momos: '/images/veg_steam_momos.png',
+  fries: '/images/french_fries.png',
+  missal: '/images/special_misal.png',
   pavbhaji: '/images/pavbhaji.png',
-  vadapav: '/images/vadapav.png',
-  beverage: '/images/beverage.png',
+  vadapav: '/images/vada_pav.png',
+  beverage: '/images/cold_coffee.png',
 };
 
 export default function MenuCategoryMarquee({ category, reverse }: { category: any, reverse: boolean }) {
@@ -46,8 +46,7 @@ export default function MenuCategoryMarquee({ category, reverse }: { category: a
                 <div key={`${item._id}-${containerIdx}-${idx}`} className="min-w-[300px] md:min-w-[350px] snap-center bg-surface-container rounded-xl p-5 border border-outline/10 hover:border-primary-container hover:shadow-[0_0_30px_rgba(255,215,0,0.3)] transition-all duration-300 group/card flex flex-col relative overflow-hidden transform hover:-translate-y-4 hover:scale-[1.02] cursor-pointer">
                   
                   <div className="w-full h-56 rounded-lg overflow-hidden mb-5 relative">
-                    <Image src={imageUrl} alt={item.title} fill className="object-cover group-hover/card:scale-110 transition-transform duration-700 ease-out" unoptimized />
-                    <div className="absolute inset-0 bg-gradient-to-t from-surface-container via-transparent to-transparent opacity-80" />
+                    <Image src={imageUrl} alt={item.title} fill className="object-cover group-hover/card:scale-110 transition-transform duration-700 ease-out" />
                     
                     {item.isHighlight && (
                       <div className="absolute top-3 left-3 bg-primary-container/20 backdrop-blur-md text-primary-container text-[11px] font-bold px-3 py-1.5 rounded-full uppercase tracking-widest border border-primary-container/30 shadow-[0_0_15px_rgba(255,215,0,0.4)]">

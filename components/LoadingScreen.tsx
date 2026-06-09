@@ -87,7 +87,7 @@ export default function LoadingScreen() {
           border: '2px solid rgba(255,215,0,0.6)',
           boxShadow: '0 0 40px rgba(255,215,0,0.25), inset 0 0 20px rgba(255,215,0,0.05)',
         }}>
-          <Image src="/images/logo.png" alt="Pawar Cafe" fill className="object-cover" unoptimized priority />
+          <Image src="/images/logo.png" alt="Pawar Cafe" fill className="object-cover" priority />
         </div>
       </div>
 

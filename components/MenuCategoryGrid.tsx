@@ -1,16 +1,16 @@
 import Image from 'next/image';
 
 const categoryImages: Record<string, string> = {
-  pizza: '/images/pizza.png',
-  burgers: '/images/burger.png',
+  pizza: '/images/cheese_pizza.png',
+  burgers: '/images/veg_burger.png',
   sandwich: '/images/sandwich.png',
-  chinese: '/images/chinese.png',
-  momos: '/images/momos.png',
-  fries: '/images/fries.png',
-  missal: '/images/misal.png',
+  chinese: '/images/hakka_noodles.png',
+  momos: '/images/veg_steam_momos.png',
+  fries: '/images/french_fries.png',
+  missal: '/images/special_misal.png',
   pavbhaji: '/images/pavbhaji.png',
-  vadapav: '/images/vadapav.png',
-  beverage: '/images/beverage.png',
+  vadapav: '/images/vada_pav.png',
+  beverage: '/images/cold_coffee.png',
 };
 
 export default function MenuCategoryGrid({ category, reverse }: { category: any, reverse: boolean }) {
@@ -44,9 +44,7 @@ export default function MenuCategoryGrid({ category, reverse }: { category: any,
                   alt={item.title} 
                   fill 
                   className="object-cover transition-transform duration-700 ease-out group-hover:scale-105" 
-                  unoptimized 
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-surface-container via-surface-container/20 to-transparent opacity-90" />
                 
                 {isHighlight && (
                   <div className="absolute top-6 left-6 bg-primary-container/20 backdrop-blur-md text-primary-container text-xs font-bold px-4 py-2 rounded-full uppercase tracking-widest border border-primary-container/30">

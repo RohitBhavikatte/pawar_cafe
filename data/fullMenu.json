@@ -2,130 +2,130 @@
   {
     "category": "Pizza",
     "items": [
-      { "name": "Cheese Pizza", "price": "99/149" },
-      { "name": "Veg cheese Pizza", "price": "99/149" },
-      { "name": "Peri Peri veg cheese Pizza", "price": "129/169" },
-      { "name": "Paneer cheese Pizza", "price": "149/179" },
-      { "name": "Paneer tiika Pizza", "price": "149/199" },
-      { "name": "Sweet corn cheese Pizza", "price": "149/179" },
-      { "name": "Baby corn cheese Pizza", "price": "149/179" },
-      { "name": "Mashroom cheese Pizza", "price": "149/199" },
-      { "name": "Double cheese Pizza", "price": "179/229" },
-      { "name": "Double cheese Paneer Pizza", "price": "179/229" },
-      { "name": "Double cheese baby corn Pizza", "price": "179/229" },
-      { "name": "Double cheese Mashroom Pizza", "price": "179/229" },
-      { "name": "Cheese burst Pizza", "price": "249/349" },
-      { "name": "Special all toping cheese Pizza", "price": "249/349" },
-      { "name": "Special Cheese burst all toping Pizza", "price": "299/399" }
+      { "name": "Cheese Pizza", "price": "99/149", "ingredients": ["Fresh Hand-tossed Dough", "Signature Pizza Sauce", "Mozzarella Cheese", "Cheddar", "Herbs"], "hook": "A timeless classic overloaded with gooey cheese." },
+      { "name": "Veg cheese Pizza", "price": "99/149", "ingredients": ["Fresh Hand-tossed Dough", "Signature Pizza Sauce", "Mozzarella Cheese", "Cheddar", "Herbs"], "hook": "A timeless classic overloaded with gooey cheese." },
+      { "name": "Peri Peri veg cheese Pizza", "price": "129/169", "ingredients": ["Fresh Hand-tossed Dough", "Signature Pizza Sauce", "Peri Peri Spices", "Jalapenos", "Mozzarella"], "hook": "Spicy, tangy, and bursting with Peri Peri flavor." },
+      { "name": "Paneer cheese Pizza", "price": "149/179", "ingredients": ["Fresh Hand-tossed Dough", "Signature Pizza Sauce", "Marinated Paneer", "Capsicum", "Onion", "Mozzarella"], "hook": "A delightful fusion of soft paneer and stretchy cheese." },
+      { "name": "Paneer tiika Pizza", "price": "149/199", "ingredients": ["Fresh Hand-tossed Dough", "Signature Pizza Sauce", "Marinated Paneer", "Capsicum", "Onion", "Mozzarella"], "hook": "A delightful fusion of soft paneer and stretchy cheese." },
+      { "name": "Sweet corn cheese Pizza", "price": "149/179", "ingredients": ["Fresh Hand-tossed Dough", "Signature Pizza Sauce", "Sweet Corn", "Mozzarella", "Oregano"], "hook": "Sweet and savory perfection in every slice." },
+      { "name": "Baby corn cheese Pizza", "price": "149/179", "ingredients": ["Fresh Hand-tossed Dough", "Signature Pizza Sauce", "Sweet Corn", "Mozzarella", "Oregano"], "hook": "Sweet and savory perfection in every slice." },
+      { "name": "Mashroom cheese Pizza", "price": "149/199", "ingredients": ["Fresh Hand-tossed Dough", "Signature Pizza Sauce", "Fresh Mushrooms", "Mozzarella", "Black Olives"], "hook": "Earthy mushrooms met with gooey cheese." },
+      { "name": "Double cheese Pizza", "price": "179/229", "ingredients": ["Fresh Hand-tossed Dough", "Signature Pizza Sauce", "Mozzarella Cheese", "Cheddar", "Herbs"], "hook": "A timeless classic overloaded with gooey cheese." },
+      { "name": "Double cheese Paneer Pizza", "price": "179/229", "ingredients": ["Fresh Hand-tossed Dough", "Signature Pizza Sauce", "Marinated Paneer", "Capsicum", "Onion", "Mozzarella"], "hook": "A delightful fusion of soft paneer and stretchy cheese." },
+      { "name": "Double cheese baby corn Pizza", "price": "179/229", "ingredients": ["Fresh Hand-tossed Dough", "Signature Pizza Sauce", "Sweet Corn", "Mozzarella", "Oregano"], "hook": "Sweet and savory perfection in every slice." },
+      { "name": "Double cheese Mashroom Pizza", "price": "179/229", "ingredients": ["Fresh Hand-tossed Dough", "Signature Pizza Sauce", "Fresh Mushrooms", "Mozzarella", "Black Olives"], "hook": "Earthy mushrooms met with gooey cheese." },
+      { "name": "Cheese burst Pizza", "price": "249/349", "ingredients": ["Fresh Hand-tossed Dough", "Signature Pizza Sauce", "Liquid Cheese", "Mozzarella", "Cheddar", "Herbs"], "hook": "Experience an absolute explosion of cheese!" },
+      { "name": "Special all toping cheese Pizza", "price": "249/349", "ingredients": ["Fresh Hand-tossed Dough", "Signature Pizza Sauce", "Onion", "Capsicum", "Tomato", "Paneer", "Corn", "Olives", "Mozzarella"], "hook": "The ultimate loaded pizza experience." },
+      { "name": "Special Cheese burst all toping Pizza", "price": "299/399", "ingredients": ["Fresh Hand-tossed Dough", "Signature Pizza Sauce", "Liquid Cheese", "Mozzarella", "Cheddar", "Herbs"], "hook": "Experience an absolute explosion of cheese!" }
     ]
   },
   {
     "category": "Burgers",
     "items": [
-      { "name": "Veg burger", "price": "59" },
-      { "name": "Schezwan burger", "price": "59" },
-      { "name": "Paneer burger", "price": "79" },
-      { "name": "cheese burger", "price": "79" },
-      { "name": "sweet corn burger", "price": "79" },
-      { "name": "Paneer Cheese burger", "price": "99" },
-      { "name": "Sweet corn cheese burger", "price": "99" },
-      { "name": "Double cheese burger", "price": "119" },
-      { "name": "Double cheese paneer burger", "price": "149" },
-      { "name": "Double cheese sweet corn burger", "price": "149" },
-      { "name": "Special burger", "price": "149" }
+      { "name": "Veg burger", "price": "59", "ingredients": ["Soft Toasted Bun", "Lettuce", "Signature Sauce", "Crispy Veg Patty", "Tomato", "Onion", "Cheese Slice"], "hook": "The perfect crunch layered with rich flavors." },
+      { "name": "Schezwan burger", "price": "59", "ingredients": ["Soft Toasted Bun", "Lettuce", "Signature Sauce", "Crispy Veg Patty", "Spicy Schezwan Sauce", "Onion"], "hook": "A fiery kick of Schezwan in every bite." },
+      { "name": "Paneer burger", "price": "79", "ingredients": ["Soft Toasted Bun", "Lettuce", "Signature Sauce", "Crispy Paneer Patty", "Tomato", "Onion"], "hook": "Crunchy on the outside, soft paneer on the inside." },
+      { "name": "cheese burger", "price": "79", "ingredients": ["Soft Toasted Bun", "Lettuce", "Signature Sauce", "Crispy Veg Patty", "Tomato", "Onion", "Cheese Slice"], "hook": "The perfect crunch layered with rich flavors." },
+      { "name": "sweet corn burger", "price": "79", "ingredients": ["Soft Toasted Bun", "Lettuce", "Signature Sauce", "Sweet Corn Patty", "Cheese Slice", "Tomato"], "hook": "Sweet, cheesy, and incredibly satisfying." },
+      { "name": "Paneer Cheese burger", "price": "99", "ingredients": ["Soft Toasted Bun", "Lettuce", "Signature Sauce", "Crispy Paneer Patty", "Tomato", "Onion"], "hook": "Crunchy on the outside, soft paneer on the inside." },
+      { "name": "Sweet corn cheese burger", "price": "99", "ingredients": ["Soft Toasted Bun", "Lettuce", "Signature Sauce", "Sweet Corn Patty", "Cheese Slice", "Tomato"], "hook": "Sweet, cheesy, and incredibly satisfying." },
+      { "name": "Double cheese burger", "price": "119", "ingredients": ["Soft Toasted Bun", "Lettuce", "Signature Sauce", "Crispy Veg Patty", "Tomato", "Onion", "Cheese Slice"], "hook": "The perfect crunch layered with rich flavors." },
+      { "name": "Double cheese paneer burger", "price": "149", "ingredients": ["Soft Toasted Bun", "Lettuce", "Signature Sauce", "Crispy Paneer Patty", "Tomato", "Onion"], "hook": "Crunchy on the outside, soft paneer on the inside." },
+      { "name": "Double cheese sweet corn burger", "price": "149", "ingredients": ["Soft Toasted Bun", "Lettuce", "Signature Sauce", "Sweet Corn Patty", "Cheese Slice", "Tomato"], "hook": "Sweet, cheesy, and incredibly satisfying." },
+      { "name": "Special burger", "price": "149", "ingredients": ["Soft Toasted Bun", "Lettuce", "Signature Sauce", "Crispy Veg Patty", "Tomato", "Onion", "Cheese Slice"], "hook": "The perfect crunch layered with rich flavors." }
     ]
   },
   {
     "category": "Sandwich",
     "items": [
-      { "name": "Veg grill Sandwich", "price": "59" },
-      { "name": "Paneer grill Sandwich", "price": "89" },
-      { "name": "Sweet corn Sandwich", "price": "89" },
-      { "name": "Cheese grill Sandwich", "price": "89" },
-      { "name": "Chocolate Sandwich", "price": "99" },
-      { "name": "Double cheese Veg Sandwich", "price": "119" },
-      { "name": "Double cheese sweet corn Sandwich", "price": "129" },
-      { "name": "Double cheese Paneer sandwich", "price": "129" },
-      { "name": "Special Sandwich", "price": "149" }
+      { "name": "Veg grill Sandwich", "price": "59", "ingredients": ["Premium Bread", "Butter", "Green Chutney", "Cucumber", "Tomato", "Onion", "Cheese", "Chat Masala"], "hook": "A crispy, classic street-style grilled sandwich." },
+      { "name": "Paneer grill Sandwich", "price": "89", "ingredients": ["Premium Bread", "Butter", "Green Chutney", "Spiced Paneer", "Capsicum", "Onion", "Cheese"], "hook": "Grilled to golden perfection with rich paneer." },
+      { "name": "Sweet corn Sandwich", "price": "89", "ingredients": ["Premium Bread", "Butter", "Green Chutney", "Sweet Corn", "Mayonnaise", "Cheese"], "hook": "Creamy, cheesy, and perfectly grilled." },
+      { "name": "Cheese grill Sandwich", "price": "89", "ingredients": ["Premium Bread", "Butter", "Green Chutney", "Cucumber", "Tomato", "Onion", "Cheese", "Chat Masala"], "hook": "A crispy, classic street-style grilled sandwich." },
+      { "name": "Chocolate Sandwich", "price": "99", "ingredients": ["Premium Bread", "Melted Chocolate", "Butter", "Chocolate Chips"], "hook": "A sweet, warm, gooey chocolate delight." },
+      { "name": "Double cheese Veg Sandwich", "price": "119", "ingredients": ["Premium Bread", "Butter", "Green Chutney", "Cucumber", "Tomato", "Onion", "Cheese", "Chat Masala"], "hook": "A crispy, classic street-style grilled sandwich." },
+      { "name": "Double cheese sweet corn Sandwich", "price": "129", "ingredients": ["Premium Bread", "Butter", "Green Chutney", "Sweet Corn", "Mayonnaise", "Cheese"], "hook": "Creamy, cheesy, and perfectly grilled." },
+      { "name": "Double cheese Paneer sandwich", "price": "129", "ingredients": ["Premium Bread", "Butter", "Green Chutney", "Spiced Paneer", "Capsicum", "Onion", "Cheese"], "hook": "Grilled to golden perfection with rich paneer." },
+      { "name": "Special Sandwich", "price": "149", "ingredients": ["Premium Bread", "Butter", "Green Chutney", "Cucumber", "Tomato", "Onion", "Cheese", "Chat Masala"], "hook": "A crispy, classic street-style grilled sandwich." }
     ]
   },
   {
     "category": "Chinese Food",
     "items": [
-      { "name": "Fried Rice", "price": "100" },
-      { "name": "Schezwan Rice", "price": "100" },
-      { "name": "Manchurian Rice", "price": "130" },
-      { "name": "Paneer Rice", "price": "150" },
-      { "name": "Noodles", "price": "100" },
-      { "name": "Hakka noodles", "price": "110" },
-      { "name": "Schezwan noodles", "price": "130" },
-      { "name": "Manchurian Noodles", "price": "150" },
-      { "name": "Paneer Noodles", "price": "150" },
-      { "name": "Manchurian", "price": "100" },
-      { "name": "Manchurian gravy", "price": "100" },
-      { "name": "Pasta", "price": "150" },
-      { "name": "white sauce pasta", "price": "150" },
-      { "name": "Gobi 65", "price": "130" },
-      { "name": "Chilli Potato", "price": "180" },
-      { "name": "Paneer 65", "price": "180" },
-      { "name": "Paneer chilli", "price": "180" }
+      { "name": "Fried Rice", "price": "100", "ingredients": ["Premium Basmati Rice", "Spring Onion", "Carrot", "Soy Sauce"], "hook": "Wok-tossed perfection with authentic flavors." },
+      { "name": "Schezwan Rice", "price": "100", "ingredients": ["Premium Basmati Rice", "Spring Onion", "Carrot", "Soy Sauce", "Schezwan Sauce"], "hook": "Spicy and intensely flavorful wok-tossed rice." },
+      { "name": "Manchurian Rice", "price": "130", "ingredients": ["Premium Basmati Rice", "Spring Onion", "Carrot", "Soy Sauce", "Manchurian Balls"], "hook": "The ultimate Indo-Chinese rice combo." },
+      { "name": "Paneer Rice", "price": "150", "ingredients": ["Premium Basmati Rice", "Spring Onion", "Carrot", "Soy Sauce", "Fried Paneer Cubes"], "hook": "Rich paneer cubes tossed in aromatic rice." },
+      { "name": "Noodles", "price": "100", "ingredients": ["Hakka Noodles", "Cabbage", "Capsicum", "Soy Sauce"], "hook": "Classic street-style wok-tossed noodles." },
+      { "name": "Hakka noodles", "price": "110", "ingredients": ["Hakka Noodles", "Cabbage", "Capsicum", "Soy Sauce"], "hook": "Classic street-style wok-tossed noodles." },
+      { "name": "Schezwan noodles", "price": "130", "ingredients": ["Hakka Noodles", "Cabbage", "Capsicum", "Soy Sauce", "Schezwan Sauce"], "hook": "Fiery hot noodles tossed in Schezwan sauce." },
+      { "name": "Manchurian Noodles", "price": "150", "ingredients": ["Hakka Noodles", "Cabbage", "Capsicum", "Soy Sauce"], "hook": "Classic street-style wok-tossed noodles." },
+      { "name": "Paneer Noodles", "price": "150", "ingredients": ["Hakka Noodles", "Cabbage", "Capsicum", "Soy Sauce"], "hook": "Classic street-style wok-tossed noodles." },
+      { "name": "Manchurian", "price": "100", "ingredients": ["Cabbage & Carrot Dumplings", "Garlic", "Dark Soy Sauce", "Spring Onion"], "hook": "Crispy dumplings glazed in a savory, garlicky sauce." },
+      { "name": "Manchurian gravy", "price": "100", "ingredients": ["Cabbage & Carrot Dumplings", "Garlic", "Dark Soy Sauce", "Spring Onion"], "hook": "Crispy dumplings glazed in a savory, garlicky sauce." },
+      { "name": "Pasta", "price": "150", "ingredients": ["Penne Pasta", "Capsicum", "Corn", "Oregano", "Tangy Tomato Sauce", "Chilli Flakes"], "hook": "A tangy and slightly spicy Italian delight." },
+      { "name": "white sauce pasta", "price": "150", "ingredients": ["Penne Pasta", "Capsicum", "Corn", "Oregano", "Creamy Bechamel Sauce", "Cheese"], "hook": "Rich, creamy, and loaded with cheese." },
+      { "name": "Gobi 65", "price": "130", "ingredients": ["Cauliflower/Potato", "Spicy Batter", "Curry Leaves", "Chilli"], "hook": "Spicy, crispy, and deeply flavorful." },
+      { "name": "Chilli Potato", "price": "180", "ingredients": ["Cauliflower/Potato", "Spicy Batter", "Curry Leaves", "Chilli"], "hook": "Spicy, crispy, and deeply flavorful." },
+      { "name": "Paneer 65", "price": "180", "ingredients": ["Paneer Cubes", "Spicy Batter", "Curry Leaves", "Chilli"], "hook": "Spicy, crispy, and deeply flavorful." },
+      { "name": "Paneer chilli", "price": "180", "ingredients": ["Paneer Cubes", "Spicy Batter", "Curry Leaves", "Chilli"], "hook": "Spicy, crispy, and deeply flavorful." }
     ]
   },
   {
     "category": "Momos",
     "items": [
-      { "name": "Veg Steam Momos", "price": "69" },
-      { "name": "Veg Fried Momos", "price": "69" },
-      { "name": "Veg Steam Peri Peri Momos", "price": "79" },
-      { "name": "Veg Fried peri peri momos", "price": "79" },
-      { "name": "Veg Cheese Steam Momos", "price": "129" },
-      { "name": "Veg Cheese Fried Momos", "price": "129" },
-      { "name": "Veg Cheese Peri Peri Steam Momos", "price": "149" },
-      { "name": "Veg Cheese Peri Peri Fried Momos", "price": "149" }
+      { "name": "Veg Steam Momos", "price": "69", "ingredients": ["Refined Wheat Wrapper", "Cabbage", "Carrot", "Onion"], "hook": "Soft, delicate parcels steamed to perfection." },
+      { "name": "Veg Fried Momos", "price": "69", "ingredients": ["Refined Wheat Wrapper", "Cabbage", "Carrot", "Onion", "Oil for Frying"], "hook": "Crispy golden exterior with a juicy, flavorful filling." },
+      { "name": "Veg Steam Peri Peri Momos", "price": "79", "ingredients": ["Refined Wheat Wrapper", "Cabbage", "Carrot", "Onion", "Peri Peri Seasoning"], "hook": "Soft, delicate parcels steamed to perfection." },
+      { "name": "Veg Fried peri peri momos", "price": "79", "ingredients": ["Refined Wheat Wrapper", "Cabbage", "Carrot", "Onion", "Peri Peri Seasoning", "Oil for Frying"], "hook": "Crispy golden exterior with a juicy, flavorful filling." },
+      { "name": "Veg Cheese Steam Momos", "price": "129", "ingredients": ["Refined Wheat Wrapper", "Cabbage", "Carrot", "Onion", "Processed Cheese"], "hook": "Soft, delicate parcels steamed to perfection." },
+      { "name": "Veg Cheese Fried Momos", "price": "129", "ingredients": ["Refined Wheat Wrapper", "Cabbage", "Carrot", "Onion", "Processed Cheese", "Oil for Frying"], "hook": "Crispy golden exterior with a juicy, flavorful filling." },
+      { "name": "Veg Cheese Peri Peri Steam Momos", "price": "149", "ingredients": ["Refined Wheat Wrapper", "Cabbage", "Carrot", "Onion", "Processed Cheese", "Peri Peri Seasoning"], "hook": "Soft, delicate parcels steamed to perfection." },
+      { "name": "Veg Cheese Peri Peri Fried Momos", "price": "149", "ingredients": ["Refined Wheat Wrapper", "Cabbage", "Carrot", "Onion", "Processed Cheese", "Peri Peri Seasoning", "Oil for Frying"], "hook": "Crispy golden exterior with a juicy, flavorful filling." }
     ]
   },
   {
     "category": "Fries",
     "items": [
-      { "name": "Salted french fries", "price": "59" },
-      { "name": "Peri Peri french fries", "price": "69" },
-      { "name": "Potato Twister", "price": "69" }
+      { "name": "Salted french fries", "price": "59", "ingredients": ["Premium Cut Potatoes", "Vegetable Oil", "Sea Salt"], "hook": "Classic, golden, and perfectly salted." },
+      { "name": "Peri Peri french fries", "price": "69", "ingredients": ["Premium Cut Potatoes", "Vegetable Oil", "Spicy Peri Peri Mix"], "hook": "Crispy, golden fries tossed in fiery Peri Peri." },
+      { "name": "Potato Twister", "price": "69", "ingredients": ["Premium Cut Potatoes", "Vegetable Oil", "Secret Spices"], "hook": "A crunchy, spiral potato delight." }
     ]
   },
   {
     "category": "Missal",
     "items": [
-      { "name": "Misal", "price": "69" },
-      { "name": "Misal (Unlimited)", "price": "99" }
+      { "name": "Misal", "price": "69", "ingredients": ["Sprouted Moth Beans (Matki)", "Spicy Tarri/Rassa", "Farsan", "Chopped Onion", "Lemon"], "hook": "The authentic, fiery taste of Maharashtra." },
+      { "name": "Misal (Unlimited)", "price": "99", "ingredients": ["Sprouted Moth Beans (Matki)", "Spicy Tarri/Rassa", "Farsan", "Chopped Onion", "Lemon"], "hook": "The authentic, fiery taste of Maharashtra." }
     ]
   },
   {
     "category": "Pav Bhaji",
     "items": [
-      { "name": "Paav Bhaaji", "price": "49" },
-      { "name": "Butter Paav Bhaaji", "price": "69" },
-      { "name": "Cheese Butter Paav Bhaaji", "price": "99" },
-      { "name": "Paneer Butter Paav Bhaaji", "price": "99" },
-      { "name": "Extra Paav", "price": "10" },
-      { "name": "Extra Butter Paav", "price": "20" }
+      { "name": "Paav Bhaaji", "price": "49", "ingredients": ["Mashed Potatoes", "Peas", "Tomatoes", "Secret Bhaji Masala", "Soft Pav", "Amul Butter"], "hook": "Rich, buttery, and packed with street-style flavor." },
+      { "name": "Butter Paav Bhaaji", "price": "69", "ingredients": ["Mashed Potatoes", "Peas", "Tomatoes", "Secret Bhaji Masala", "Soft Pav", "Amul Butter"], "hook": "Rich, buttery, and packed with street-style flavor." },
+      { "name": "Cheese Butter Paav Bhaaji", "price": "99", "ingredients": ["Mashed Potatoes", "Peas", "Tomatoes", "Secret Bhaji Masala", "Soft Pav", "Grated Cheese"], "hook": "Rich, buttery bhaji topped with a mountain of cheese." },
+      { "name": "Paneer Butter Paav Bhaaji", "price": "99", "ingredients": ["Mashed Potatoes", "Peas", "Tomatoes", "Secret Bhaji Masala", "Soft Pav", "Paneer Cubes"], "hook": "A royal twist to the classic street food." },
+      { "name": "Extra Paav", "price": "10", "ingredients": ["Mashed Potatoes", "Peas", "Tomatoes", "Secret Bhaji Masala", "Soft Pav", "Amul Butter"], "hook": "Rich, buttery, and packed with street-style flavor." },
+      { "name": "Extra Butter Paav", "price": "20", "ingredients": ["Mashed Potatoes", "Peas", "Tomatoes", "Secret Bhaji Masala", "Soft Pav", "Amul Butter"], "hook": "Rich, buttery, and packed with street-style flavor." }
     ]
   },
   {
     "category": "Vadapav",
     "items": [
-      { "name": "Regular Vadapaav", "price": "15" },
-      { "name": "Grill Vadapaav", "price": "20" },
-      { "name": "Mayonnaise Vadapaav", "price": "30" },
-      { "name": "Cheese grill Vadapaav", "price": "40" },
-      { "name": "Paties", "price": "25" }
+      { "name": "Regular Vadapaav", "price": "15", "ingredients": ["Spiced Potato Patty (Vada)", "Soft Pav", "Dry Garlic Chutney", "Green Chutney"], "hook": "The legendary, authentic taste of street food." },
+      { "name": "Grill Vadapaav", "price": "20", "ingredients": ["Spiced Potato Patty (Vada)", "Soft Pav", "Dry Garlic Chutney", "Green Chutney", "Butter"], "hook": "Crispy grilled pav with a spicy potato heart." },
+      { "name": "Mayonnaise Vadapaav", "price": "30", "ingredients": ["Spiced Potato Patty (Vada)", "Soft Pav", "Dry Garlic Chutney", "Green Chutney"], "hook": "The legendary, authentic taste of street food." },
+      { "name": "Cheese grill Vadapaav", "price": "40", "ingredients": ["Spiced Potato Patty (Vada)", "Soft Pav", "Dry Garlic Chutney", "Green Chutney", "Cheese Slice"], "hook": "A cheesy upgrade to the ultimate street food." },
+      { "name": "Paties", "price": "25", "ingredients": ["Spiced Potato Filling", "Flaky Puff Pastry"], "hook": "Golden, flaky, and baked to perfection." }
     ]
   },
   {
     "category": "Beverage",
     "items": [
-      { "name": "cold coffee", "price": "70" },
-      { "name": "mango crush", "price": "70" },
-      { "name": "mojito", "price": "50" }
+      { "name": "cold coffee", "price": "70", "ingredients": ["Espresso Decoction", "Chilled Milk", "Sugar", "Ice Cream"], "hook": "Thick, creamy, and instantly refreshing." },
+      { "name": "mango crush", "price": "70", "ingredients": ["Mango Crush", "Chilled Water/Soda", "Ice"], "hook": "A sweet, tropical escape in a glass." },
+      { "name": "mojito", "price": "50", "ingredients": ["Fresh Mint", "Lemon", "Soda", "Sugar Syrup"], "hook": "Zesty, minty, and perfectly thirst-quenching." }
     ]
   }
 ]

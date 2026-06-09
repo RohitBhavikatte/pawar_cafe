@@ -131,7 +131,6 @@ export default function AboutSection() {
                 alt="Bajrang Pawar — Founder of Pawar Cafe"
                 fill
                 className="object-cover object-top transition-transform duration-700 group-hover:scale-105"
-                unoptimized
               />
             </div>
 

@@ -51,7 +51,6 @@ export default function Footer() {
               width={80}
               height={80}
               className="relative rounded-full border-2 border-primary-container/60"
-              unoptimized
             />
           </div>
           <h3 className="font-display text-2xl font-black text-on-surface mb-1 uppercase tracking-tight">

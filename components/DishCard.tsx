@@ -21,7 +21,6 @@ export default function DishCard({ item, imageUrl }: DishCardProps) {
           alt={item.title} 
           fill 
           className="object-cover" 
-          unoptimized 
         />
         
         {/* Heart Icon (top right like RedChilliz) */}
