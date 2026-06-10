@@ -8,7 +8,8 @@ const syne = Syne({ variable: "--font-syne", subsets: ["latin"] });
 const spaceGrotesk = Space_Grotesk({ variable: "--font-space-grotesk", subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://pawarcafe.com'), // Placeholder, replace with actual production domain
+  // Use the actual live URL so OG image paths resolve correctly for link previews
+  metadataBase: new URL('https://pawar-cafe.vercel.app'),
   title: {
     default: "Pawar Cafe | Taste of Udgir — Best Pizza, Misal & Street Food",
     template: "%s | Pawar Cafe Udgir",
@@ -37,11 +38,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Pawar Cafe | Taste of Udgir",
     description: "Udgir's most vibrant cafe — premium street food, legendary pizza, and a vibe you can't forget.",
-    url: "https://pawarcafe.com",
+    url: "https://pawar-cafe.vercel.app",
     siteName: "Pawar Cafe",
     images: [
       {
-        url: "/images/logo.png",
+        // Absolute URL required for iMessage, WhatsApp, and social media crawlers
+        url: "https://pawar-cafe.vercel.app/images/logo.png",
         width: 800,
         height: 600,
         alt: "Pawar Cafe Logo",
@@ -55,7 +57,7 @@ export const metadata: Metadata = {
     title: "Pawar Cafe | Taste of Udgir",
     description: "Udgir's most vibrant cafe — premium street food, legendary pizza, and a vibe you can't forget.",
     creator: "@PawarCafe",
-    images: ["/images/logo.png"],
+    images: ["https://pawar-cafe.vercel.app/images/logo.png"],
   },
   icons: {
     icon: "/images/logo.png",
